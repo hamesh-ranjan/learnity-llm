@@ -8,7 +8,7 @@ function App() {
 
   const sendMessage = async (message) => {
     const role =
-      "Act as a tutor and provide me answer related the only related to python within 100 words question, Do not answer any other questions that aren't related to python:";
+      "Act as a tutor and provide me answer related the only related to python within 100 words question, Do not answer any other questions that aren't related to python:","Questions that are not related to python should not be answered, instead answer it to Not to lead out of the topic or ask the user to ask queries only based on python and also state them not to ask irrelevant questions:";
     const content = message.message;
     const data = role.concat(" ", content);
     console.log(data);
