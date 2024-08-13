@@ -16,11 +16,11 @@ function App() {
 
     const options = {
       method: "POST",
-      url: "https://open-ai21.p.rapidapi.com/conversationgpt35",
+      url: 'https://chatgpt-42.p.rapidapi.com/conversationgpt4-2',
       headers: {
-        "content-type": "application/json",
-        "X-RapidAPI-Key": "2b60b7ade8mshbf690e38a18cc79p1ef769jsn61b2a3640058",
-        "X-RapidAPI-Host": "open-ai21.p.rapidapi.com",
+      'x-rapidapi-key': 'e17bf532e4msha5bde230e4bc7bfp16f3f8jsn62bef21a5333',
+      'x-rapidapi-host': 'chatgpt-42.p.rapidapi.com',
+      'Content-Type': 'application/json'
       },
       data: {
         messages: [
