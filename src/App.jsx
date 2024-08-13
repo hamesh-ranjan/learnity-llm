@@ -18,7 +18,7 @@ function App() {
       method: "POST",
       url: 'https://chatgpt-42.p.rapidapi.com/conversationgpt4-2',
       headers: {
-      'x-rapidapi-key': 'e17bf532e4msha5bde230e4bc7bfp16f3f8jsn62bef21a5333',
+      'x-rapidapi-key': 'f8722470a5mshbc875b26d65dadcp1de101jsn7c6ddf492eb4',
       'x-rapidapi-host': 'chatgpt-42.p.rapidapi.com',
       'Content-Type': 'application/json'
       },
