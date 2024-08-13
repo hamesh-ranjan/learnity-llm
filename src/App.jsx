@@ -8,7 +8,7 @@ function App() {
 
   const sendMessage = async (message) => {
     const role =
-      "Act as a tutor and provide me answer related the only related to python within 100 words question:";
+      "Act as a tutor and provide me answer related the only related to python within 100 words question, Do not answer any other questions that aren't related to python:";
     const content = message.message;
     const data = role.concat(" ", content);
     console.log(data);
